@@ -1,23 +1,50 @@
 # Análisis de Datos de Ventas para la Toma de Decisiones Comerciales
 
-Este proyecto tiene como objetivo analizar datos de ventas de un supermercado para
-comprender el comportamiento de las ventas y apoyar la toma de decisiones comerciales
-basadas en datos.
+Proyecto académico enfocado en el análisis de datos de ventas de un supermercado, con el objetivo de comprender el comportamiento comercial y evaluar la capacidad predictiva de distintos modelos de Machine Learning.
 
-El trabajo incluye una etapa de análisis exploratorio, visualización de datos y una
-etapa de modelado utilizando aprendizaje automático para predecir el valor total de
-una venta.
+---
 
-## Contenido del proyecto
+## Objetivo del Proyecto
 
-- Análisis exploratorio de datos (EDA)
-- Validación y preparación del dataset
-- Visualizaciones con Matplotlib y Seaborn
-- Entrenamiento de modelos de regresión
-- Comparación de métricas (Regresión Lineal vs Random Forest)
-- Conclusiones y aprendizaje personal
+Analizar un dataset de ventas para:
 
-## Herramientas utilizadas
+- Comprender cómo se distribuyen las ventas entre productos y categorías.
+- Identificar variables relevantes que influyen en el valor total de una venta.
+- Comparar modelos predictivos para estimar el comportamiento de las ventas.
+- Conectar los resultados obtenidos con posibles decisiones comerciales.
+
+---
+
+## Etapas del Trabajo
+
+### 1️⃣ Análisis Exploratorio de Datos (EDA)
+- Validación del dataset.
+- Limpieza y preparación de datos.
+- Visualización con Matplotlib y Seaborn.
+- Identificación de patrones y tendencias.
+
+### 2️⃣ Preprocesamiento
+- Codificación de variables categóricas.
+- Selección de variables relevantes.
+- Separación del dataset en Train y Test.
+
+### 3️⃣ Modelado
+Se entrenaron dos modelos de regresión:
+
+- Regresión Lineal
+- Random Forest
+
+### 4️⃣ Evaluación de Modelos
+Se utilizaron métricas como:
+
+- MSE (Mean Squared Error)
+- R² (Coeficiente de determinación)
+
+El modelo Random Forest obtuvo mejor desempeño en comparación con la Regresión Lineal.
+
+---
+
+## Herramientas Utilizadas
 
 - Python
 - Pandas
@@ -25,12 +52,22 @@ una venta.
 - Seaborn
 - Scikit-learn
 - Google Colab
+- GitHub
 
-## Archivo principal
+---
+
+## Resultados Relevantes
+
+- Se identificaron variables con fuerte influencia en el valor total de venta.
+- Se evidenció la importancia del preprocesamiento en el desempeño del modelo.
+- Se compararon modelos para validar cuál se adapta mejor al dataset.
+
+---
+
+## Archivo Principal
 
 - `Análisis_de_Datos_de_Ventas_Horna.ipynb`
 
 ---
 
-Proyecto realizado como parte de una práctica académica, aplicando conceptos de análisis
-de datos y aprendizaje automático.
+Proyecto realizado como parte del módulo **Fundamentos para la Ciencia de Datos**.
