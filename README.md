@@ -46,25 +46,30 @@ El modelo Random Forest obtuvo mejor desempeño en comparación con la Regresió
 
 ## Stack Tecnológico
 
+**Lenguajes y librerías**
 - Python
 - Pandas
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Google Colab
-- Machine Learning (Regresión Lineal y Random Forest)
+
+**Técnicas de análisis**
 - Análisis Exploratorio de Datos (EDA)
 - Preprocesamiento de Datos
+- Modelado de Regresión
 - Evaluación de Modelos
-- GitHub
+
+**Herramientas y flujo**
+- Google Colab
+- GitHub GitHub
 
 ---
 
 ## Resultados Relevantes
 
-- Se identificaron variables con fuerte influencia en el valor total de venta.
-- Se evidenció la importancia del preprocesamiento en el desempeño del modelo.
-- Se compararon modelos para validar cuál se adapta mejor al dataset.
+- El modelo Random Forest obtuvo mejores métricas comparado con Regresión Lineal, con menor error y mejor ajuste.
+- Se identificaron variables que influyen significativamente en el valor total de venta.
+- El proceso completo validó la importancia de preparar datos y evaluar modelos cuidadosamente.
 
 ---
 
