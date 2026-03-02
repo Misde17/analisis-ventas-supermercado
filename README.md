@@ -44,7 +44,7 @@ El modelo Random Forest obtuvo mejor desempeño en comparación con la Regresió
 
 ---
 
-## Herramientas Utilizadas
+## Stack Tecnológico
 
 - Python
 - Pandas
@@ -52,6 +52,10 @@ El modelo Random Forest obtuvo mejor desempeño en comparación con la Regresió
 - Seaborn
 - Scikit-learn
 - Google Colab
+- Machine Learning (Regresión Lineal y Random Forest)
+- Análisis Exploratorio de Datos (EDA)
+- Preprocesamiento de Datos
+- Evaluación de Modelos
 - GitHub
 
 ---
